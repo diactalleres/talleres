@@ -47,16 +47,10 @@
                     <span class="image main"><img src="images/vinoHeader.jpg" alt="" /></span>
                     <h2>Regístrate</h2>
                     <form method="post" action="#" id="registroForm" data-taller="vino">
-                        <div class="fields">
-                            <div class="field half">
-                                <input type="text" name="nombre" id="name" placeholder="Nombre" />
-                            </div>
-                            <div class="field half">
-                                <input type="email" name="correo" id="email" placeholder="Correo" />
-                            </div>
-                        </div>
+                        <!-- Removed Nombre and Correo input boxes -->
                         <ul class="actions">
-                            <li><input type="submit" value="Registrar" class="primary registrarTaller vino" /></li>
+                            <!-- Added onclick event to call the redirectToLink function -->
+                            <li><input type="button" value="Registrar" class="primary registrarTaller vino" onclick="redirectToLink()" /></li>
                         </ul>
                     </form>
                     <h2>Fecha y Hora</h2>
@@ -96,8 +90,12 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/register.js"></script>
-    
-
+        
+        <!-- Added JavaScript function to redirect to a specific link -->
+        <script>
+            function redirectToLink() {
+                window.location.href = "https://forms.gle/SXygn4yfYuYJMNtX9"; // Replace with the desired link
+            }
+        </script>
     </body>
 </html>
