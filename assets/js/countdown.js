@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Display the countdown in the specified element
         document.getElementById("countdown").innerHTML = "FALTAN " + days + " Días - " + hours + "hrs:"
-            + minutes + " min:" + seconds + "s";
+            + minutes + "min:" + seconds + "s";
 
         // If the countdown is over, display a message
         if (distance < 0) {

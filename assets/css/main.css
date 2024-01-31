@@ -2857,6 +2857,22 @@ input, select, textarea {
 			color: #45a065;
 		}
 
+		@media screen and (max-width: 736px) {
+			#header .logo {
+				display: block;
+				border-bottom: 0;
+				color: inherit;
+				font-weight: 900;
+				letter-spacing: 0.05em;
+				font-size: 4rem;
+				margin: 0 0 0.5em 0;
+				text-decoration: none;
+				text-transform: uppercase;
+				display: inline-block;
+				color: #45a065;
+			}
+		}
+
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
