@@ -1,5 +1,12 @@
 @import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Jost:400,700");
+
+/*
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Jost:400,700");
+*/
 
 /*
 	Phantom by HTML5 UP
@@ -22,7 +29,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: 'Jost';
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -156,6 +163,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 900;
+		color: #e63339;
 	}
 
 	em, i {
@@ -164,10 +172,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		color: #b4afaf;
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.2rem;
+		color: #b4afaf;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -200,7 +210,8 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.05em;
+		margin-bottom: 0.05rem;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2528,7 +2539,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
+			background-color: #e63339;
 			color: #ffffff !important;
 		}
 
@@ -2837,11 +2848,13 @@ input, select, textarea {
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
-			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			letter-spacing: 0.05em;
+			font-size: 6rem;
+			margin: 0 0 0.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
+			color: #e63339;
 		}
 
 			#header .logo > * {

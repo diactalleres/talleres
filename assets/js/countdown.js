@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     // Set the date we're counting down to (March 13, 2024)
-    var countDownDate = new Date("Mar 13, 2024 00:00:00").getTime();
+    var countDownDate = new Date("Mar 13, 2024 11:00:00").getTime();
 
     // Update the countdown every 1 second
     var x = setInterval(function () {
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the countdown in the specified element
-        document.getElementById("countdown").innerHTML = "Faltan " + days + " D - " + hours + " H - "
-            + minutes + " M - " + seconds + " S";
+        document.getElementById("countdown").innerHTML = "FALTAN " + days + " Días - " + hours + "hrs:"
+            + minutes + " min:" + seconds + "s";
 
         // If the countdown is over, display a message
         if (distance < 0) {
